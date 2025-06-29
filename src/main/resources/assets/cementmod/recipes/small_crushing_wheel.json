@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZCZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "item": "cementmod:iron_plate"
+    },
+    "C": {
+      "item": "minecraft:dye",
+      "data": 4
+    }
+  },
+  "result": {
+    "item": "cementmod:small_crushing_wheel",
+    "count": 4
+  }
+}
