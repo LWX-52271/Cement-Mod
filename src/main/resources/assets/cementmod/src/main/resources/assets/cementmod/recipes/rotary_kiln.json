@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ISI",
+    "AAA"
+  ],
+  "key": {
+    "I": {
+      "item": "cementmod:refractory_brick"
+    },
+    "S": {
+      "item": "minecraft:furnace"
+    },
+    "A": {
+      "item": "cementmod:refractory_brick_block"
+    }
+  },
+  "result": {
+    "item": "cementmod:rotary_kiln",
+    "count": 1
+  }
+}

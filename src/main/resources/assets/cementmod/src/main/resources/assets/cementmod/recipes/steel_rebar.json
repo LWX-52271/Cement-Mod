@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  Z",
+    " Z ",
+    "Z  "
+  ],
+  "key": {
+    "Z": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+      "item": "cementmod:steel_rebar",
+      "count": 4
+  }
+}
