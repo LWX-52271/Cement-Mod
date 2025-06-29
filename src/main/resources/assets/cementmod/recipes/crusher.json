@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "ZCZ",
+    "ZVZ"
+  ],
+  "key": {
+    "V": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:hopper"
+    },
+    "Z": {
+      "item": "cementmod:iron_plate"
+    },
+    "C": {
+      "item": "cementmod:complete_crushing_axle"
+    }
+  },
+  "result": {
+    "item": "cementmod:crusher",
+    "count": 1
+  }
+}

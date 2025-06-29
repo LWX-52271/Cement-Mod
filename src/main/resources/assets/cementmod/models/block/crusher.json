@@ -1,0 +1,12 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "particle": "cementmod:blocks/crusher_front",
+    "up": "cementmod:blocks/crusher_top",
+    "north": "cementmod:blocks/crusher_front",
+    "south": "cementmod:blocks/crusher_back",
+    "down": "cementmod:blocks/crusher_down",
+    "east": "cementmod:blocks/crusher_side",
+    "west": "cementmod:blocks/crusher_side"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "forge:items/bucket_fluid",
+    "layer1": "cementmod:items/wet_concrete_bucket"
+  }
+}

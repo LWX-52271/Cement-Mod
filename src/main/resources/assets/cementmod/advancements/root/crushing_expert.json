@@ -1,0 +1,37 @@
+{
+  "parent": "cementmod:root/first_lime",
+  "display": {
+    "icon": {
+      "item": "cementmod:lime_powder",
+      "nbt": "{Count:4}"
+    },
+    "title": {
+      "translate": "advancements.cementmod.crushing_expert.title"
+    },
+    "description": {
+      "translate": "advancements.cementmod.crushing_expert.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained_lime_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "cementmod:lime_powder",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "cementmod:root/root",
+  "display": {
+    "icon": {
+      "item": "cementmod:lime_powder"
+    },
+    "title": {
+      "translate": "advancements.cementmod.first_lime.title"
+    },
+    "description": {
+      "translate": "advancements.cementmod.first_lime.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained_lime_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "cementmod:lime_powder"
+          }
+        ]
+      }
+    }
+  }
+}

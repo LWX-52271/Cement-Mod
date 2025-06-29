@@ -1,0 +1,27 @@
+{
+  "parent": "cementmod:root/structure_engineer",
+  "display": {
+    "icon": {
+      "item": "cementmod:steel_rebar"
+    },
+    "title": {
+      "translate": "advancements.cementmod.perfect_reinforcement.title"
+    },
+    "description": {
+      "translate": "advancements.cementmod.perfect_reinforcement.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "perfect_reinforcement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 75,
+    "function": "cementmod:reward/perfect_reinforcement"
+  }
+}

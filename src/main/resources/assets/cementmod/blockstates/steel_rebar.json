@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "cementmod:steel_rebar", "y": 0},
+    "facing=east": {"model": "cementmod:steel_rebar", "y": 90},
+    "facing=south": {"model": "cementmod:steel_rebar", "y": 180},
+    "facing=west": {"model": "cementmod:steel_rebar", "y": 270}
+  }
+}

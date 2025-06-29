@@ -1,0 +1,30 @@
+{
+  "parent": "cementmod:root/first_lime",
+  "display": {
+    "icon": {
+      "item": "cementmod:cement_powder"
+    },
+    "title": {
+      "translate": "advancements.cementmod.cement_master.title"
+    },
+    "description": {
+      "translate": "advancements.cementmod.cement_master.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained_cement_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "cementmod:cement_powder"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZZ ",
+    "ZZ ",
+    "   "
+  ],
+  "key": {
+    "Z": {
+      "item": "cementmod:refractory_brick"
+    }
+  },
+  "result": {
+    "item": "cementmod:refractory_brick_block",
+    "count": 1
+  }
+}

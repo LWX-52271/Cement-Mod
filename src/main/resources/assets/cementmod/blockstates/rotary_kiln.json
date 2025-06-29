@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "cementmod:rotary_kiln" },
+    "facing=south": { "model": "cementmod:rotary_kiln", "y": 180 },
+    "facing=west": { "model": "cementmod:rotary_kiln", "y": 270 },
+    "facing=east": { "model": "cementmod:rotary_kiln", "y": 90 }
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZZ ",
+    "ZX ",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:sand",
+      "data": 0
+    },
+    "Z": {
+      "item": "cementmod:deep_clay"
+    }
+  },
+  "result": {
+    "item": "cementmod:refractory_brick",
+    "count": 4
+  }
+}

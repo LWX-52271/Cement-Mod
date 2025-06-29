@@ -1,0 +1,33 @@
+{
+  "parent": "cementmod:root/first_lime",
+  "display": {
+    "icon": {
+      "item": "cementmod:deep_clay"
+    },
+    "title": {
+      "translate": "advancements.cementmod.deep_earth_explorer.title"
+    },
+    "description": {
+      "translate": "advancements.cementmod.deep_earth_explorer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtained_deep_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "cementmod:deep_clay"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  }
+}

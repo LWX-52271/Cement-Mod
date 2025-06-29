@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "cementmod:crusher" },
+    "facing=south": { "model": "cementmod:crusher", "y": 180 },
+    "facing=west": { "model": "cementmod:crusher", "y": 270 },
+    "facing=east": { "model": "cementmod:crusher", "y": 90 }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "cementmod:root/structure_engineer",
+  "display": {
+    "icon": {
+      "item": "cementmod:reinforced_concrete",
+      "nbt": "{Count:64}"
+    },
+    "title": {
+      "translate": "advancements.cementmod.structure_master.title"
+    },
+    "description": {
+      "translate": "advancements.cementmod.structure_master.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "placed_reinforced_concrete": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "function": "cementmod:reward/structure_master"
+  }
+}

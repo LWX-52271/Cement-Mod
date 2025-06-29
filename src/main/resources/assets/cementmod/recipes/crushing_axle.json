@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  Z",
+    " C ",
+    "Z  "
+  ],
+  "key": {
+    "Z": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "cementmod:iron_plate"
+    }
+  },
+  "result": {
+    "item": "cementmod:crushing_axle",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "forge:item/default",
+  "textures": {
+    "particle": "cementmod:blocks/wet_concrete_still",
+    "texture": "cementmod:blocks/wet_concrete_still"
+  }
+}

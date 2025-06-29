@@ -1,0 +1,41 @@
+{
+  "parent": "cementmod:root/cement_master",
+  "display": {
+    "icon": {
+      "item": "cementmod:hardened_concrete"
+    },
+    "title": {
+      "translate": "advancements.cementmod.concrete_builder.title"
+    },
+    "description": {
+      "translate": "advancements.cementmod.concrete_builder.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "placed_hardened_concrete": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "cementmod:hardened_concrete"
+      }
+    },
+    "placed_wet_concrete": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "cementmod:wet_concrete"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "placed_hardened_concrete",
+      "placed_wet_concrete"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    " C ",
+    "ZXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "cementmod:large_crushing_wheel"
+    },
+    "Z": {
+      "item": "cementmod:small_crushing_wheel"
+    },
+    "C": {
+      "item": "cementmod:crushing_axle"
+    }
+  },
+  "result": {
+    "item": "cementmod:complete_crushing_axle",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "cementmod:items/hammer_damaged_2"
+  }
+}

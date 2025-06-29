@@ -1,0 +1,24 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "cementmod:items/hammer"
+  },
+  "overrides": [
+    {
+      "predicate": {"damaged": 0, "damage": 0.0},
+      "model": "cementmod:item/hammer"
+    },
+    {
+      "predicate": {"damaged": 0, "damage": 0.1},
+      "model": "cementmod:item/hammer_damaged_1"
+    },
+    {
+      "predicate": {"damaged": 0, "damage": 0.5},
+      "model": "cementmod:item/hammer_damaged_2"
+    },
+    {
+      "predicate": {"damaged": 1, "damage": 1.0},
+      "model": "cementmod:item/hammer_broken"
+    }
+  ]
+}

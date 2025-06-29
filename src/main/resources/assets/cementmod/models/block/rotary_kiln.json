@@ -1,0 +1,14 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "particle": "cementmod:blocks/rotary_kiln_front",
+    "up": "cementmod:blocks/rotary_kiln_top",
+    "down": "cementmod:blocks/rotary_kiln_top",
+    "north": "cementmod:blocks/rotary_kiln_front",
+    "south": "cementmod:blocks/rotary_kiln_front",
+    "east": "cementmod:blocks/rotary_kiln_side",
+    "west": "cementmod:blocks/rotary_kiln_side"
+  }
+}
+
+

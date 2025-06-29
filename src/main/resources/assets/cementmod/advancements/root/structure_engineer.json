@@ -1,0 +1,45 @@
+{
+  "parent": "cementmod:root/cement_master",
+  "display": {
+    "icon": {
+      "item": "cementmod:reinforced_concrete"
+    },
+    "title": {
+      "translate": "advancements.cementmod.structure_engineer.title"
+    },
+    "description": {
+      "translate": "advancements.cementmod.structure_engineer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_reinforced_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "cementmod:reinforced_concrete"
+          }
+        ]
+      }
+    },
+    "placed_steel_rebar": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "cementmod:steel_rebar"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted_reinforced_concrete",
+      "placed_steel_rebar"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

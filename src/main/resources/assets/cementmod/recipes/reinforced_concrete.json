@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "RCR",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "cementmod:steel_rebar"
+    },
+    "C": {
+      "item": "cementmod:hardened_concrete"
+    }
+  },
+  "result": {
+    "item": "cementmod:reinforced_concrete",
+    "count": 1
+  }
+}
